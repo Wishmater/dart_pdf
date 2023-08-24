@@ -532,7 +532,7 @@ class TtfParser {
 
       components.add(glyphIndex);
       if (flags & weHaveInstructions != 0) {
-        assert(!hasInstructions); // Not already set
+        // assert(!hasInstructions); // Not already set
         hasInstructions = true;
       }
     }
